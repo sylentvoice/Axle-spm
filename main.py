@@ -9,7 +9,7 @@ import threading
 # ============================
 cl = Client()
 
-cl.login_by_sessionid("78088994566%3Ai8DTakyDoWBdwA%3A14%3AAYhj2TyEGqfsiX9qfyn3yblpA8T8AdJIDBmtyHpcg)
+cl.login_by_sessionid("78088994566%3Ai8DTakyDoWBdwA%3A14%3AAYhj2TyEGqfsiX9qfyn3yblpA8T8AdJIDBmtyHpcg")
 
 me_id = cl.user_id
 print(f"🤖 Logged in as @{cl.username}")
