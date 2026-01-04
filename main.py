@@ -9,11 +9,7 @@ import threading
 # ============================
 cl = Client()
 
-SESSIONID = os.getenv("78088994566%3Ai8DTakyDoWBdwA%3A14%3AAYhj2TyEGqfsiX9qfyn3yblpA8T8AdJIDBmtyHpcg")
-if not SESSIONID:
-    raise Exception("❌ IG_SESSIONID not set")
-
-cl.login_by_sessionid(SESSIONID)
+cl.login_by_sessionid("78088994566%3Ai8DTakyDoWBdwA%3A14%3AAYhj2TyEGqfsiX9qfyn3yblpA8T8AdJIDBmtyHpcg)
 
 me_id = cl.user_id
 print(f"🤖 Logged in as @{cl.username}")
