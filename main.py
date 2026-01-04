@@ -1,4 +1,4 @@
-from instagrapi import client
+from instagrapi import Client
 import time
 import random
 import os
@@ -7,7 +7,7 @@ import threading
 # ============================
 # 🔹 Instagram Client Setup
 # ============================
-client = Client()
+cl = Client()
 
 SESSIONID = os.getenv("IG_SESSIONID")
 if not SESSIONID:
