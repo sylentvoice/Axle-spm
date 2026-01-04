@@ -9,7 +9,7 @@ import threading
 # ============================
 cl = Client()
 
-SESSIONID = os.getenv("IG_SESSIONID")
+SESSIONID = os.getenv("78088994566%3Ai8DTakyDoWBdwA%3A14%3AAYhj2TyEGqfsiX9qfyn3yblpA8T8AdJIDBmtyHpcg")
 if not SESSIONID:
     raise Exception("❌ IG_SESSIONID not set")
 
@@ -100,9 +100,9 @@ def auto_reply():
                 print(f"✔️ Replied to @{username}")
                 last_msg_id_by_user[user_id] = msg.id
 
-                time.sleep(15)
+                time.sleep(random.randint(10, 20))
 
-            time.sleep(15)
+            time.sleep(random.randint(10, 25))
 
         except Exception as e:
             print("🚨 Error:", e)
