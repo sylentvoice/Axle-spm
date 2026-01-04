@@ -7,7 +7,7 @@ import threading
 # ============================
 # 🔹 Instagram Client Setup
 # ============================
-cl = Client()
+client = Client()
 
 SESSIONID = os.getenv("IG_SESSIONID")
 if not SESSIONID:
