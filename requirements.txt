@@ -1,3 +1,2 @@
 instagrapi
-flask
 pillow
