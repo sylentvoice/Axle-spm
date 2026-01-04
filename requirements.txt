@@ -1,2 +1,3 @@
 instagrapi
-pillow
+keep_alive
+flask
